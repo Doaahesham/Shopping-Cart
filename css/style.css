@@ -84,10 +84,46 @@ ul#user-info {
   display: none;
 }
 
-#user , #logout {
+#user,
+#logout {
   color: red;
   min-width: 150px;
 }
-#logout{
+#logout {
   cursor: pointer;
+}
+
+/* products */
+.products {
+  width: 60%;
+  margin: 10px 0;
+}
+.product-itm {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.product-itm-img {
+  width: 15%;
+  margin-right: 30px;
+}
+.product-itm-actions{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  text-align: right;
+}
+.Add-to-Cart{
+  display: block;
+  margin-left: auto;
+  color: white;
+  background-color: green;
+  padding: 10px;
+  cursor: pointer;
+}
+.fav{
+  cursor: pointer;
+  margin-left: auto ;
 }
